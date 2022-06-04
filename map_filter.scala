@@ -1,4 +1,4 @@
-object Demo {
+object Demo  {
     def main(args: Array[String]): Unit = {
       
         val intList = List(5, 6, 7, 8)

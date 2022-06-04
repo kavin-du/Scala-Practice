@@ -11,7 +11,7 @@ object Demo {
             Source.fromURL("https://httpbin.org/uuid").mkString
         }
 
-        // two in one
+        // two in one, waiting in a while loop
         f1 onComplete {
             case Success(result) => println(s"Successfull ==> $result")
             case Failure(e) => println(s"Error ${e.getMessage}")

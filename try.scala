@@ -2,7 +2,7 @@ import scala.util.Try
 import scala.io.Source
 import scala.util.Success
 import scala.util.Failure
-object Demo {
+object Demo extends  App {
     def getResource(url: String): Try[String] = {
         Try{
             Source.fromURL(url).mkString
